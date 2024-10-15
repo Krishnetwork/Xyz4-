@@ -9,9 +9,9 @@ from pyrogram.errors import (
 )
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnonXMusic import YouTube, app
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils.database import (
+from KRISH import YouTube, app
+from KRISH.misc import SUDOERS
+from KRISH.utils.database import (
     get_assistant,
     get_cmode,
     get_lang,
@@ -20,7 +20,7 @@ from AnonXMusic.utils.database import (
     is_active_chat,
     is_maintenance,
 )
-from AnonXMusic.utils.inline import botplaylist_markup
+from KRISH.utils.inline import botplaylist_markup
 from config import PLAYLIST_IMG_URL, SUPPORT_CHAT, adminlist
 from strings import get_string
 
@@ -37,7 +37,7 @@ def PlayWrapper(command):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ?",
-                            callback_data="AnonymousAdmin",
+                            callback_data="LORD mousAdmin",
                         ),
                     ]
                 ]

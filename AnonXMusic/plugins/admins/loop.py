@@ -1,10 +1,10 @@
 from pyrogram import filters
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.utils.database import get_loop, set_loop
-from AnonXMusic.utils.decorators import AdminRightsCheck
-from AnonXMusic.utils.inline import close_markup
+from KRISH import app
+from KRISH.utils.database import get_loop, set_loop
+from KRISH.utils.decorators import AdminRightsCheck
+from KRISH.utils.inline import close_markup
 from config import BANNED_USERS
 
 
