@@ -1,9 +1,9 @@
 from pyrogram import filters
 
-from AnonXMusic import YouTube, app
-from AnonXMusic.utils.channelplay import get_channeplayCB
-from AnonXMusic.utils.decorators.language import languageCB
-from AnonXMusic.utils.stream.stream import stream
+from KRISH import YouTube, app
+from KRISH.utils.channelplay import get_channeplayCB
+from KRISH.utils.decorators.language import languageCB
+from KRISH.utils.stream.stream import stream
 from config import BANNED_USERS
 
 

@@ -1,9 +1,9 @@
 from pyrogram.enums import ChatType
 from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 
-from AnonXMusic import app
-from AnonXMusic.misc import SUDOERS, db
-from AnonXMusic.utils.database import (
+from KRISH import app
+from KRISH.misc import SUDOERS, db
+from KRISH.utils.database import (
     get_authuser_names,
     get_cmode,
     get_lang,
@@ -44,7 +44,7 @@ def AdminRightsCheck(mystic):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ?",
-                            callback_data="AnonymousAdmin",
+                            callback_data="LORD mousAdmin",
                         ),
                     ]
                 ]
@@ -140,7 +140,7 @@ def AdminActual(mystic):
                     [
                         InlineKeyboardButton(
                             text="ʜᴏᴡ ᴛᴏ ғɪx ?",
-                            callback_data="AnonymousAdmin",
+                            callback_data="LORD mousAdmin",
                         ),
                     ]
                 ]

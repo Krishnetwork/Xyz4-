@@ -5,10 +5,10 @@ from pyrogram.enums import ChatMemberStatus
 from pyrogram.errors import FloodWait
 from pyrogram.types import Message
 
-from AnonXMusic import app
-from AnonXMusic.core.mongo import mongodb
-from AnonXMusic.misc import SUDOERS
-from AnonXMusic.utils import get_readable_time
+from KRISH import app
+from KRISH.core.mongo import mongodb
+from KRISH.misc import SUDOERS
+from KRISH.utils import get_readable_time
 
 chatsdb = mongodb.chats
 usersdb = mongodb.tgusersdb

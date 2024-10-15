@@ -1,8 +1,8 @@
-from AnonXMusic.core.bot import Anony
-from AnonXMusic.core.dir import dirr
-from AnonXMusic.core.git import git
-from AnonXMusic.core.userbot import Userbot
-from AnonXMusic.misc import dbb, heroku
+from KRISH.core.bot import LORD 
+from KRISH.core.dir import dirr
+from KRISH.core.git import git
+from KRISH.core.userbot import Userbot
+from KRISH.misc import dbb, heroku
 
 from .logging import LOGGER
 
@@ -11,7 +11,7 @@ git()
 dbb()
 heroku()
 
-app = Anony()
+app = LORD ()
 userbot = Userbot()
 
 
